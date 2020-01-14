@@ -403,7 +403,7 @@ void skiac_path_destroy(skiac_path* c_path)
 
 void skiac_path_set_fill_type(skiac_path* c_path, FillType type)
 {
-    PATH_CAST->setFillType((SkPath::FillType)type);
+    PATH_CAST->setFillType((SkPathFillType)type);
 }
 
 void skiac_path_move_to(skiac_path* c_path, double x, double y)
